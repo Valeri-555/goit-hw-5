@@ -594,8 +594,8 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cub
     gap: 24px;
 }
 
-.project-desc:hover,
-.project-desc:focus {
+.project-link:hover .project-desc,
+.project-link:focus .project-desc {
    transform: translateY(0); 
 }
 
